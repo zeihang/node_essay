@@ -207,7 +207,7 @@ Promise.race = function (promises) {
             if (typeof promise.then === 'function') {
                 promise.then(resolve, reject)
             } else{
-                resolve(promise)
+                resolve(promise )
             }
         }
     });

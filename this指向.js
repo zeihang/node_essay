@@ -40,4 +40,4 @@ console.log(objOne.x)
   * 作为一个DOM事件处理函数时，this指向出发事件的元素
   */
 
-//箭头函数没有自己的this，它只会从自身作用域链的上一层继承this
+//箭头函数没有自己的this和arguments，它只会从自身作用域链的上一层继承this

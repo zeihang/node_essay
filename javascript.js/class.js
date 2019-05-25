@@ -9,7 +9,8 @@ class Servant {
     static die() {
         console.log('game over')
     }
-    // 原型上的方法 就是公用方法
+    // 原型上的 就是公用的
+    skill = 'cry' //es7才有
     call() {
         console.log('all hail saber')
     }
